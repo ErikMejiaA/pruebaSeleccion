@@ -1,9 +1,12 @@
+import { postSkill } from "../../services/skills-service.js";
 export { FrmSkills };
 
 class FrmSkills extends HTMLElement {
     constructor() {
         super();
         this.formulario();
+        this.limpiarFormulario();
+        this.guardarDatosRegistro();
 
     }
     formulario() {
@@ -34,6 +37,30 @@ class FrmSkills extends HTMLElement {
                 </div>
             </div>
         `;
+    }
+
+    //------------------------limpiar el formulario---------------------------
+    limpiarFormulario = () => {
+        const fromDatosSkill = document.querySelector('#fromDatosSkill');//formulario principal
+        document.querySelector('#nuevoSkill').addEventListener('click', (e) => {
+            for (let itemFrm of fromDatosSkill) {
+                itemFrm.value = '';
+            }
+
+            e.preventDefault();
+        });
+    }
+
+    //-----------------guardar la informacion de los SKILL en la base de datos------------------
+    guardarDatosRegistro = () => {
+        const fromDatosSkill = document.querySelector('#fromDatosSkill');//formulario principal
+        document.querySelector('#guardarSkill').addEventListener('click', (e) => {
+            const datos = Object.fromEntries(new FormData(fromDatosSkill).entries()); //datos para guardada en la API
+            console.log(datos);
+            postSkill(datos); //Metodo (POST)
+
+            e.preventDefault();
+        });
     }
 
 }

@@ -100,7 +100,32 @@
       "id": 6
     }
   ],
-  "skill": [],
+  "skill": [
+    {
+      "nombre": "PYTHON",
+      "id": 1
+    },
+    {
+      "nombre": "PHP",
+      "id": 2
+    },
+    {
+      "nombre": "JAVASCRIPT",
+      "id": 3
+    },
+    {
+      "nombre": "HTML5",
+      "id": 4
+    },
+    {
+      "nombre": "CSS3",
+      "id": 5
+    },
+    {
+      "nombre": "BOOTSTRAP",
+      "id": 6
+    }
+  ],
   "moduleskill": [],
   "grades": []
 }
