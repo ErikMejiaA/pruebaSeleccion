@@ -1,0 +1,106 @@
+{
+  "team": [
+    {
+      "nombre": "JUPITER",
+      "trainerAsociado": "MATEO",
+      "id": 1
+    },
+    {
+      "nombre": "VENUS",
+      "trainerAsociado": "SAN MARCOS",
+      "id": 2
+    },
+    {
+      "nombre": "SATURNO",
+      "trainerAsociado": "PEDRO",
+      "id": 3
+    },
+    {
+      "nombre": "TIERRA",
+      "trainerAsociado": "SAN MARCOS TADEO",
+      "id": 4
+    },
+    {
+      "nombre": "PLUTON",
+      "trainerAsociado": "CARLOS",
+      "id": 5
+    }
+  ],
+  "campers": [
+    {
+      "nombre": "tomas",
+      "edad": "15",
+      "telefono": "33456",
+      "email": "tomas@gmail.com",
+      "direccion": "carrera 24 #43-12",
+      "fechaNacimiento": "2022-06-07",
+      "numIdentificacion": "4453343",
+      "fechaIngresoPrograma": "2023-03-08",
+      "id_team": "1",
+      "id": 1
+    },
+    {
+      "nombre": "oscar",
+      "edad": "13",
+      "telefono": "45555",
+      "email": "oscar@gmail.com",
+      "direccion": "carrera 24 #43-43",
+      "fechaNacimiento": "2021-12-02",
+      "numIdentificacion": "54545",
+      "fechaIngresoPrograma": "2023-02-02",
+      "id_team": "1",
+      "id": 2
+    },
+    {
+      "nombre": "pedro",
+      "edad": "16",
+      "telefono": "4555656",
+      "email": "pedro@gmail.com",
+      "direccion": "carrera 24 #43-01",
+      "fechaNacimiento": "2022-04-13",
+      "numIdentificacion": "454545",
+      "fechaIngresoPrograma": "2023-02-24",
+      "id_team": "5",
+      "id": 3
+    },
+    {
+      "nombre": "lucas",
+      "edad": "16",
+      "telefono": "43434343",
+      "email": "lucas@gmail.com",
+      "direccion": "carrera 24 #43-12",
+      "fechaNacimiento": "2022-06-09",
+      "numIdentificacion": "454545",
+      "fechaIngresoPrograma": "2023-04-04",
+      "id_team": "4",
+      "id": 4
+    },
+    {
+      "nombre": "orlando",
+      "edad": "19",
+      "telefono": "434454",
+      "email": "pedro@gmail.com",
+      "direccion": "carrera 24 #43-45",
+      "fechaNacimiento": "2022-09-27",
+      "numIdentificacion": "445454",
+      "fechaIngresoPrograma": "2023-04-14",
+      "id_team": "3",
+      "id": 5
+    },
+    {
+      "nombre": "Diana",
+      "edad": "25",
+      "telefono": "45454545",
+      "email": "Diana@gmail.com",
+      "direccion": "carrera 24 #43-43",
+      "fechaNacimiento": "2022-09-30",
+      "numIdentificacion": "565656",
+      "fechaIngresoPrograma": "2023-03-13",
+      "id_team": "3",
+      "id": 6
+    }
+  ],
+  "skill": [],
+  "moduleskill": [],
+  "grades": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "pruebaselecion",
+  "version": "1.0.0",
+  "description": "nuevo proyecto para la correcion de la prueba de seleccion",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
